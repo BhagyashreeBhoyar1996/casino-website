@@ -1,0 +1,113 @@
+body {
+  background-color: #444;
+  font-family: sans-serif;
+}
+.main.container.one {
+  background-color: #ffffff;
+  padding: 3em 2em 7em;
+  max-width: 990px !important;
+}
+
+.main.container.two {
+    background-color: #ffffff;
+    padding: 2em 2em 1em;
+    max-width: 1126px !important;
+  }
+
+.field {
+  margin: 10px;
+}
+
+.ui.basic.primary.button.button-like-link {
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+  text-decoration: underline !important;
+}
+
+.ui.basic.primary.button.button-like-link {
+  box-shadow: none !important;
+  border: none !important;
+  padding: 0 !important;
+  text-decoration: underline !important;
+}
+
+#game-launch > iframe {
+    width: 100%;
+    height: 100%;
+  }
+
+.items-scroll {
+  max-height: 80%;
+  overflow-y: auto;
+}
+
+.search {
+  float: right;
+}
+
+.ui.grid {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.ui.inverted.secondary.button:hover,
+.ui.inverted.secondary.buttons .button:hover {
+  background-color: black;
+}
+
+.ui.inverted.secondary.button,
+.ui.inverted.secondary.buttons .button {
+  color: black;
+}
+
+.ui.inverted.secondary.button:active,
+.ui.inverted.secondary.buttons .button:active {
+  background-color: black;
+}
+
+.ui.inverted.secondary.button:focus,
+.ui.inverted.secondary.buttons .button:focus {
+  background-color: black;
+}
+
+.login-form {
+  width: 28%;
+}
+
+@media only screen and (max-width: 650px) {
+    .login-form {
+      width: 100%;
+    }
+  }
+  
+  /* Small Devices */
+  @media only screen and (min-width: 576px) and (max-width: 767.98px) {
+    .login-form {
+        width: 60%;
+      }
+  }
+  
+  /* Medium Devices */
+  @media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .login-form {
+        width: 50%;
+      }
+  }
+
+@media screen and (orientation: landscape) and (max-width: 767.98px) {
+    .main.container.one {
+        padding: 3em 2em 3em;
+    }
+  }
+  
+  
+  @media screen and (orientation: landscape) and (min-width: 768px) and (max-width: 991.98px) {
+    .main.container.one {
+        padding: 3em 2em 3em;
+    }
+  }
+  
+
+  @media screen and (orientation: landscape) and (min-width: 992px) and (max-width: 1199.98px) {
+  }
+  
