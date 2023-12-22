@@ -2,6 +2,10 @@
 ### In the project directory, you can run:
 
 ```javascript
+ npm install
+ ```
+
+```javascript
  npm start
  ```
 
